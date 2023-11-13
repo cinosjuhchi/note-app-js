@@ -1,0 +1,29 @@
+<!DOCTYPE html class="scroll-smooth">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noted App JS</title>
+    <link rel="stylesheet" href="../public/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;900&family=Montserrat:wght@400;500;700&family=Permanent+Marker&family=Poppins:wght@400;500;700&family=Questrial&family=Quicksand:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gradient-to-r from-primary to-gray h-full">
+    <div class="container border-2 border-solid border-white w-5/12 min-w-[450px] py-8 px-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div class="bg-white py-[30px] px-[20px] rounded-[5px] shadow-xl relative" id="newtask">
+        <input type="text" class="font-poppins border-2 border-slate-200 border-solid w-[70%] h-[45px] relative text-base font-medium p-3 text-black" placeholder="Task To Be Done" />
+        
+        <button id="push" class="float-right relative h-[45px] w-1/5 rounded-md font-poppins font-medium text-[16px] bg-secondary border-none text-white cursor-pointer">add</button>
+      </div>
+      <div id="tasks" class="bg-white py-8 px-5 mt-[60px] rounded-xl shadow-xl w-full relative">
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
